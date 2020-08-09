@@ -85,3 +85,6 @@ class Solution {
         arr[secondIndex] = temp
     }
 }
+
+let marksResult = Solution()
+print("Marks solution", marksResult.sortArray(randomInterviewArray))

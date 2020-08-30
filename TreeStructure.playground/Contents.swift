@@ -75,4 +75,7 @@ extension Node {
         return nil
     }
 }
-print(beverages)
+//print(beverages)
+beverages.search(value: "cocoa")    // returns the "cocoa" node
+beverages.search(value: "chai")     // returns the "chai" node
+beverages.search(value: "bubbly")   // nil
